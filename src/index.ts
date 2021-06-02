@@ -1,9 +1,6 @@
 import axios, { AxiosInstance } from "axios";
 
-const authenticator = async (
-  instance: AxiosInstance,
-  serviceUrl?: string
-): Promise<void> => {
+const authenticator = (instance: AxiosInstance, serviceUrl?: string): void => {
   if (!serviceUrl) {
     const originRegex = /^.+?[^\/:](?=[?\/]|$)/i;
     const regexMatch = originRegex.exec(`${instance.defaults.baseURL}`);
