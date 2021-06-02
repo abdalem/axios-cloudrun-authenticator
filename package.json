@@ -1,0 +1,40 @@
+{
+  "name": "axios-cloudrun-authenticator",
+  "version": "1.0.0",
+  "description": "Google Cloud Platform Cloud Run service-to-service authentication, through axios interceptors, by adding token from the internal metadata server to headers",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abdalem/axios-cloudrun-authenticator.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "node",
+    "axios",
+    "gcp",
+    "google cloud platform",
+    "cloud run",
+    "authentication",
+    "service-to-service",
+    "service-to-service authentication",
+    "metadata server",
+    "jwt token"
+  ],
+  "author": "abdalem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdalem/axios-cloudrun-authenticator/issues"
+  },
+  "homepage": "https://github.com/abdalem/axios-cloudrun-authenticator#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
